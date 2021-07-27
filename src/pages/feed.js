@@ -24,6 +24,7 @@ const feed = ({nombre}) => {
                     <div className="alert " id="infoColor" role="alert">
                         Selecciona la foto que te guste
                     </div>
+                    <button id="botonPublicar" >Publicar</button>
                 </div>
             </div>
         )
