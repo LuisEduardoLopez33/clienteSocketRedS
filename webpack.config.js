@@ -16,6 +16,17 @@ module.exports = {
                     loader: 'babel-loader',
                 }
             },
+            {
+                test:/\.(png|gif|jpg|svg)$/,
+                use:[
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: 'assets/[hash].[ext]'
+                        }
+                    }
+                ]
+            },
             { // Loader para css
                 test: /\.css$/,
                 use:  ['style-loader','css-loader']
@@ -31,6 +42,6 @@ module.exports = {
     devServer: {
         historyApiFallback : true,
         compress: true,
-        port: 8000,
+
     },
 };
