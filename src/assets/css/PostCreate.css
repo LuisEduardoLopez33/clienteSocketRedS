@@ -6,12 +6,12 @@
 #titulo{
     color: #FFFFFF;
     text-align: center;
-    font-size: xxx-large;
+    font-size: xx-large;
 }
 #borde{
     position: absolute;
     width: 1600px;
-    height: 1100px;
+    height: 500px;
     border-color: #2CA5DB;
     border-width: 2px;
     border-style: solid;
@@ -23,7 +23,7 @@
     position: absolute;
     top:20px;
     width: 1490px;
-    height: 150px;
+    height: 100px;
     left: 55px;
     border-radius: 10px;
 }
@@ -33,11 +33,13 @@
 }
 #infoColor{
     position: absolute;
+    width: 380px;
+    height: 40px;
     color: #FFFFFF;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     left: 600px;
-    top:200px;
+    top:150px;
     background-color: #2CA5DB;
 }
 #botonPublicar{
@@ -45,7 +47,7 @@
     width: 380px;
     height: 41px;
     left: 600px;
-    top: 900px;
+    top: 450px;
     text-align: center;
     font-size: x-large;
     color:#FFFFFF;

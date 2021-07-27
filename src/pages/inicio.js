@@ -13,9 +13,6 @@ function inicio () {
        }
    }
 
-        /*socket.on('connection',()=>{
-            console.log('conexion exitosa')
-        });*/
 
         return(
             <div className="fondo">
