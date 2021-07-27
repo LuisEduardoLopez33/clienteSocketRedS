@@ -4,6 +4,6 @@ import App from './pages/app'
 import Inicio from './pages/inicio'
 import CreatePost from './pages/postCreate'
 ReactDOM.render(
-    <CreatePost />,
+    <App />,
     document.getElementById('root')
 );

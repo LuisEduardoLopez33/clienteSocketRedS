@@ -32,7 +32,6 @@ class Main extends React.Component {
     changeUser(e){
         this.setState(this.users[Math.floor(Math.random() * this.users.length)])
     }
-
     render() {
         return (
             <UserContext.Provider value={this.state}>
