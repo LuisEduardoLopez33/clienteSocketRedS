@@ -7,7 +7,7 @@ import img3 from "../assets/imagenes/foto2.jpg"
 import img4 from "../assets/imagenes/foto3.jpg"
 import img5 from "../assets/imagenes/foto4.jpg"
 import img6 from "../assets/imagenes/foto5.jpg"
-import Card from "../components/Card"
+
 
 
 
