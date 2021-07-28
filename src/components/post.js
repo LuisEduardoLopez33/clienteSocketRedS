@@ -19,13 +19,13 @@ class post extends React.Component{
             <React.Fragment>
                 <div className = "row">
                     <div className="col" >
-                    <div className="card">
+                    <div className="card"  >
                         <div className="card-body">
                             <h5 className="card-title">{this.props.nombre}</h5>
                             <p className="card-text"></p>
                             <p className="card-text"><small className="text-muted">{this.props.publicacion}</small></p>
                         </div>
-                        <img src={this.props.imagen} className="card-img-bottom" />
+                        <img src={this.props.imagen} className="card-img-bottom" width="200" height="200"/>
                     </div>
                     </div>
                 </div>

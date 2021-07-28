@@ -1,7 +1,13 @@
 #fondo{
     background-color: #0E1620;
     width: 1920px;
-    height: 1080px;
+    height: 700px;
+}
+#FondoCard{
+    background-color: #0E1620;
+    width: 1920px;
+    height: 1500px;
+
 }
 #titulo{
     color: #FFFFFF;
